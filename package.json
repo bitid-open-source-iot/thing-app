@@ -1,0 +1,17 @@
+{
+  "name": "thing-app",
+  "version": "1.0.0",
+  "description": "ThingAppPi",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "biTid",
+    "ThingApp",
+    "Raspberry",
+    "Pi"
+  ],
+  "author": "biTid",
+  "license": "MIT"
+}
