@@ -1,0 +1,36 @@
+mat-toolbar {
+    background-color: transparent;
+}
+.title {
+    text-align:     center;
+    padding-right:  40px;
+    text-transform: uppercase;
+}
+form {
+    width:      400px;
+    margin:     auto;
+    padding:    0px 10px;
+    margin-top: 50px;
+    button {
+        flex:           1 auto;
+        height:         50px;
+        font-size:      16px;
+        font-weight:    400;
+        margin-bottom:  15px;
+        text-transform: uppercase;
+    }
+}
+@media screen and (max-width: 420px) {
+    form {
+        width: calc(100% - 20px);
+    }
+}
+p {
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: justify;
+    line-height: 15px;
+    a {
+        color: #2196F3;
+    }
+}

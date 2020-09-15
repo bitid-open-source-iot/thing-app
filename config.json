@@ -1,5 +1,6 @@
 {
     "port": 8080,
+    "status": 0,
     "telemetry": {
         "ws": "wss://ws.telemetry.bitid.co.za",
         "http": "https://telemetry.bitid.co.za"

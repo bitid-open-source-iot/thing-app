@@ -92,3 +92,7 @@
 [2020-09-15T16:41:12.028] [INFO] thing-app - server started on port: 8080
 [2020-09-15T16:41:12.029] [INFO] thing-app - 185e0fe1c5c6
 [2020-09-15T16:41:12.030] [ERROR] thing-app - EACCES: permission denied, open '/sys/class/gpio/export'
+[2020-09-15T17:01:26.458] [INFO] thing-app - Loaded ./api/admin/device
+[2020-09-15T17:01:26.461] [INFO] thing-app - server started on port: 8080
+[2020-09-15T17:01:26.462] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-15T17:01:26.462] [ERROR] thing-app - EACCES: permission denied, open '/sys/class/gpio/export'

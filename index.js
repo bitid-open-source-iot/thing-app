@@ -34,9 +34,8 @@ try {
                     res.sendFile(__dirname + '/app/dist/admin/index.html');
                 });
 
-                var device = require('./api/device');
-                app.use('/admin/device', device);
-                __logger.info('Loaded ./api/admin/device');
+                app.use('/device', require('./api/device'));
+                __logger.info('Loaded: ./api/device');
 
                 app.use((error, req, res) => {
                     var err = ErrorResponse();
