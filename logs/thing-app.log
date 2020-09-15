@@ -1,0 +1,58 @@
+[2020-09-14T17:30:00.702] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:33:03.374] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:34:06.273] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:34:08.244] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:35:26.866] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:36:57.301] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:36:57.304] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:40:30.623] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:40:43.099] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:41:46.518] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:42:03.960] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:42:03.963] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:43:10.901] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:43:10.903] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:44:05.602] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:44:05.605] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:44:28.019] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:44:28.022] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:44:35.757] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:44:35.760] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:45:07.130] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:45:07.132] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:45:16.538] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:45:16.541] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:45:19.146] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:45:19.150] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:45:44.522] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:45:44.525] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:46:06.036] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:46:06.040] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:46:17.136] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:46:17.140] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:46:19.762] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:46:19.764] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:46:31.526] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:46:31.529] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:46:33.463] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:46:33.466] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:49:10.942] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:49:10.945] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:49:31.387] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:49:31.390] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:51:08.368] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:51:08.370] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:51:13.746] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:51:13.748] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:56:56.029] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:56:56.031] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:57:07.145] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:57:07.148] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T17:58:00.712] [INFO] thing-app - server started on port: 8080
+[2020-09-14T17:58:00.715] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-14T18:06:18.640] [INFO] thing-app - server started on port: 8080
+[2020-09-14T18:06:18.643] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-15T16:02:51.648] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
+[2020-09-15T16:02:51.652] [INFO] thing-app - 185e0fe1c5c6
+[2020-09-15T16:03:09.468] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
+[2020-09-15T16:03:09.471] [INFO] thing-app - 185e0fe1c5c6

@@ -1,3 +1,30 @@
 {
-    "port": 8080
+    "port": 8080,
+    "telemetry": {
+        "ws": "wss://ws.telemetry.bitid.co.za",
+        "http": "https://telemetry.bitid.co.za"
+    },
+    "authentication": {
+        "username": "admin",
+        "password": "admin"
+    },
+    "logger": {
+        "appenders": {
+            "thing-app": {
+                "type": "file",
+                "backups": 10,
+                "filename": "./logs/thing-app.log",
+                "absolute": true,
+                "maxLogSize": 102400
+            }
+        },
+        "categories": {
+            "default": {
+                "appenders": [
+                    "thing-app"
+                ],
+                "level": "error"
+            }
+        }
+    }
 }

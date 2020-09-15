@@ -1,12 +1,17 @@
 var Q = require('q');
+var test = require('./lib/test');
 var cors = require('cors');
 var http = require('http');
-var gpio = require('./lib/gpio');
+var logger = require('./lib/logger');
+var device = require('./lib/device');
 var express = require('express');
 var settings = require('./config.json');
 var bodyParser = require('body-parser');
+var ErrorResponse = require('./lib/error-response');
 
 global.__base = __dirname + '/';
+global.__logger = logger;
+global.__device = new device();
 global.__settings = settings;
 
 try {
@@ -25,20 +30,30 @@ try {
                     'limit': '50mb'
                 }));
 
-                app.use((err, req, res) => {
-                    portal.error.error.code = 500;
-                    portal.error.error.message = 'Something broke';
-                    portal.error.error.errors[0].code = 500;
-                    portal.error.error.errors[0].message = 'Something broke';
-                    portal.error.hiddenErrors.push(err.stack);
-                    __responder.error(req, res, portal.error);
+                app.use('/', express.static(__dirname + '/app/dist/admin/'));
+                app.get('/*', (req, res) => {
+                    res.sendFile(__dirname + '/app/dist/admin/index.html');
+                });
+
+                var device = require('./api/device');
+                app.use('/admin/device', device);
+                __logger.info('Loaded ./api/admin/device');
+
+                app.use((error, req, res) => {
+                    var err = ErrorResponse();
+                    err.error.code = 500;
+                    err.error.message = error.message;
+                    err.error.errors[0].code = 500;
+                    err.error.errors[0].reason = error.message;
+                    err.error.errors[0].message = error.message;
+                    __responder.error(req, res, err);
                 });
 
                 http.createServer(app).listen(__settings.port);
-                console.log('server started on port: ' + __settings.port);
+                __logger.info('server started on port: ' + __settings.port);
                 deferred.resolve();
-            } catch (e) {
-                console.log('initAPI catch error: ' + e);
+            } catch (error) {
+                __logger.error(error.message);
             };
 
             return deferred.promise;
@@ -47,9 +62,10 @@ try {
         init: () => {
             var deferred = Q.defer();
 
+            __logger.init();
+
             portal.api({})
                 .then(args => {
-                    gpio.test();
                     deferred.resolve(args);
                 }, err => {
                     deferred.reject(err);
