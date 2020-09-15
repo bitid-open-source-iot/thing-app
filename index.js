@@ -1,5 +1,4 @@
 var Q = require('q');
-var test = require('./lib/test');
 var cors = require('cors');
 var http = require('http');
 var logger = require('./lib/logger');
@@ -65,6 +64,7 @@ try {
             __logger.init();
 
             portal.api({})
+                .then(__device.start, null)
                 .then(args => {
                     deferred.resolve(args);
                 }, err => {
