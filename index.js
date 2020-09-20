@@ -65,7 +65,7 @@ try {
             portal.api({})
                 .then(__device.start, null)
                 .then(() => {
-                    debugger
+                    __logger.log('Starting Inputs');
                     __settings.inputs.map(input => __io.add(input));
                     __logger.log('Init Complete');
                 }, err => {
