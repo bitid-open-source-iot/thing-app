@@ -1,5 +1,5 @@
 var Q = require('q');
-var io = require('./lib/io');
+var io = require('onoff').Gpio;
 var cors = require('cors');
 var http = require('http');
 var logger = require('./lib/logger');
@@ -66,6 +66,19 @@ try {
                     const ip = await device.ip();
                     const os = await device.os();
                     const id = await device.id();
+
+                    try {
+                        __logger.info("Started Adding IO");
+                        __settings.inputs = __settings.inputs.map(input => {
+                            input.io = new Gpio(input.pin, input.type);
+                            return input;
+                        });
+                        __logger.info("Finished Adding IO");
+                    } catch (error) {
+                        console.log(error.message);
+                        __logger.error(error.message);
+                    };
+
                     __logger.info('Device Startup Complete');
                 }, err => {
                     __logger.error(err);
