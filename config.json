@@ -21,7 +21,7 @@
             "thing-app": {
                 "type": "file",
                 "backups": 10,
-                "filename": "./logs/thing-app.log",
+                "filename": "/var/www/node/thing-app/logs/thing-app.log",
                 "absolute": true,
                 "maxLogSize": 102400
             }
