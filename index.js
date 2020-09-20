@@ -63,10 +63,10 @@ try {
             __logger.init();
 
             portal.api({})
-                .then(__device.start, null)
+                // .then(__device.start, null)
                 .then(() => {
                     __logger.info('Starting Inputs');
-                    __settings.inputs.map(input => __io.add(input));
+                    // __settings.inputs.map(input => __io.add(input));
                     __logger.info('Init Complete');
                 }, err => {
                     __logger.error(err);
