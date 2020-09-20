@@ -2,16 +2,14 @@ var Q = require('q');
 var io = require('onoff').Gpio;
 var cors = require('cors');
 var http = require('http');
-var logger = require('./lib/logger');
 var device = require('./lib/device');
 var express = require('express');
-var settings = require('./config.json');
 var bodyParser = require('body-parser');
 var ErrorResponse = require('./lib/error-response');
 
 global.__base = __dirname + '/';
-global.__logger = logger;
-global.__settings = settings;
+global.__logger = require('./lib/logger');
+global.__settings = require('./config.json');
 
 try {
     var portal = {
@@ -70,12 +68,11 @@ try {
                     try {
                         __logger.info("Started Adding IO");
                         __settings.inputs = __settings.inputs.map(input => {
-                            input.io = new Gpio(input.pin, input.type);
+                            input.io = new io(input.pin, input.type);
                             return input;
                         });
                         __logger.info("Finished Adding IO");
                     } catch (error) {
-                        console.log(error.message);
                         __logger.error(error.message);
                     };
 
