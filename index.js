@@ -69,7 +69,7 @@ try {
                         __logger.info("Started Adding IO");
                         const temperature = new Gpio(11, 'out');
 
-                        setInterval(async () => __logger.info(input.pin.readSync()), 1000);
+                        setInterval(async () => __logger.info(temperature.readSync()), 1000);
 
                         __logger.info("Finished Adding IO");
                     } catch (error) {
