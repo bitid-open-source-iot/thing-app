@@ -1,5 +1,5 @@
 var Q = require('q');
-var io = require('onoff').Gpio;
+var Gpio = require('onoff').Gpio;
 var cors = require('cors');
 var http = require('http');
 var device = require('./lib/device');
@@ -67,10 +67,7 @@ try {
 
                     try {
                         __logger.info("Started Adding IO");
-                        __settings.inputs = __settings.inputs.map(input => {
-                            input.io = new io(input.pin, input.type);
-                            return input;
-                        });
+                        const temperature = new Gpio(11, 'out');
                         __logger.info("Finished Adding IO");
                     } catch (error) {
                         __logger.error(error.message);
