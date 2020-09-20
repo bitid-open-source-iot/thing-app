@@ -9,10 +9,8 @@ var settings = require('./config.json');
 var bodyParser = require('body-parser');
 var ErrorResponse = require('./lib/error-response');
 
-global.__io = new io();
 global.__base = __dirname + '/';
 global.__logger = logger;
-global.__device = new device();
 global.__settings = settings;
 
 try {
@@ -61,13 +59,14 @@ try {
 
         init: () => {
             __logger.init();
+            __logger.info('Starting Device');
 
             portal.api({})
-                // .then(__device.start, null)
-                .then(() => {
-                    __logger.info('Starting Inputs');
-                    // __settings.inputs.map(input => __io.add(input));
-                    __logger.info('Init Complete');
+                .then(async () => {
+                    const ip = await device.ip();
+                    const os = await device.os();
+                    const id = await device.id();
+                    __logger.info('Device Startup Complete');
                 }, err => {
                     __logger.error(err);
                 });
