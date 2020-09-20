@@ -1,4 +1,5 @@
 var Q = require('q');
+var io = require('./lib/io');
 var cors = require('cors');
 var http = require('http');
 var logger = require('./lib/logger');
@@ -8,6 +9,7 @@ var settings = require('./config.json');
 var bodyParser = require('body-parser');
 var ErrorResponse = require('./lib/error-response');
 
+global.__io = new io();
 global.__base = __dirname + '/';
 global.__logger = logger;
 global.__device = new device();
@@ -58,19 +60,18 @@ try {
         },
 
         init: () => {
-            var deferred = Q.defer();
-
             __logger.init();
 
             portal.api({})
                 .then(__device.start, null)
-                .then(args => {
-                    deferred.resolve(args);
+                .then(() => {
+                    debugger
+                    __settings.inputs.map(input => __io.add(input));
+                    __logger.log('Init Complete');
                 }, err => {
-                    deferred.reject(err);
+                    __logger.error(err);
                 });
 
-            return deferred.promise;
         }
     };
 

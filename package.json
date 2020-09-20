@@ -18,10 +18,12 @@
     "connectivity": "^1.0.2",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "ip": "^1.1.5",
     "log4js": "^6.3.0",
     "macaddress": "^0.5.1",
     "node-dht-sensor": "^0.4.3",
     "onoff": "^6.0.0",
+    "public-ip": "^4.0.2",
     "q": "^1.5.1"
   }
 }
