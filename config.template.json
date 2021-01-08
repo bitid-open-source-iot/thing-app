@@ -34,5 +34,9 @@
                 "level": "error"
             }
         }
+    },
+    "sockets": {
+        "config": "ws://127.0.0.1:8000/telemetry/devices/config",
+        "control": "ws://127.0.0.1:8000/telemetry/devices/control"
     }
 }

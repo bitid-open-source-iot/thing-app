@@ -182,3 +182,61 @@
 [2020-09-20T12:22:06.965] [INFO] thing-app - server started on port: 8080
 [2020-09-20T12:22:06.967] [INFO] thing-app - Starting Device
 [2020-09-20T12:22:07.042] [INFO] thing-app - Device Startup Complete
+[2020-09-20T17:49:30.252] [INFO] thing-app - Starting Device
+[2020-09-20T17:49:30.257] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T17:49:30.260] [INFO] thing-app - server started on port: 8080
+[2020-09-20T17:49:30.319] [INFO] thing-app - Started Adding IO
+[2020-09-20T17:49:30.319] [ERROR] thing-app - EACCES: permission denied, open '/sys/class/gpio/export'
+[2020-09-20T17:49:30.319] [INFO] thing-app - Device Startup Complete
+[2020-09-20T17:50:56.660] [INFO] thing-app - Starting Device
+[2020-09-20T17:50:56.668] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T17:50:56.671] [INFO] thing-app - server started on port: 8080
+[2020-09-20T17:52:08.771] [INFO] thing-app - Starting Device
+[2020-09-20T17:52:08.776] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T17:52:08.779] [INFO] thing-app - server started on port: 8080
+[2020-09-20T17:57:49.905] [INFO] thing-app - Starting Device
+[2020-09-20T17:57:49.913] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T17:57:49.916] [INFO] thing-app - server started on port: 8080
+[2020-09-20T17:57:50.008] [ERROR] thing-app - WebSocket is not defined
+[2020-09-20T17:57:50.008] [INFO] thing-app - Device Startup Complete
+[2020-09-20T17:57:57.086] [INFO] thing-app - Starting Device
+[2020-09-20T17:57:57.092] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T17:57:57.094] [INFO] thing-app - server started on port: 8080
+[2020-09-20T17:57:57.174] [ERROR] thing-app - WebSocket is not defined
+[2020-09-20T17:57:57.174] [INFO] thing-app - Device Startup Complete
+[2020-09-20T17:58:03.231] [INFO] thing-app - Starting Device
+[2020-09-20T17:58:03.240] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T17:58:03.243] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:04:21.025] [INFO] thing-app - Starting Device
+[2020-09-20T18:04:21.031] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:04:21.033] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:05:58.819] [INFO] thing-app - Starting Device
+[2020-09-20T18:05:58.826] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:05:58.827] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:05:58.924] [INFO] thing-app - Device Startup Complete
+[2020-09-20T18:07:03.211] [INFO] thing-app - Starting Device
+[2020-09-20T18:07:03.218] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:07:03.220] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:07:03.315] [INFO] thing-app - Device Startup Complete
+[2020-09-20T18:11:57.101] [INFO] thing-app - Starting Device
+[2020-09-20T18:11:57.107] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:11:57.109] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:11:57.188] [INFO] thing-app - Device Startup Complete
+[2020-09-20T18:11:58.704] [INFO] thing-app - Config Socket Connecting
+[2020-09-20T18:11:58.710] [ERROR] thing-app - Config Socket Disconnected
+[2020-09-20T18:20:43.748] [INFO] thing-app - Starting Device
+[2020-09-20T18:20:43.755] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:20:43.757] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:20:43.837] [INFO] thing-app - Device Startup Complete
+[2020-09-20T18:20:51.020] [INFO] thing-app - Starting Device
+[2020-09-20T18:20:51.032] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:20:51.036] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:21:05.110] [INFO] thing-app - Device Startup Complete
+[2020-09-20T18:23:08.251] [INFO] thing-app - Starting Device
+[2020-09-20T18:23:08.259] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:23:08.261] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:23:11.342] [INFO] thing-app - Device Startup Complete
+[2020-09-20T18:25:44.578] [INFO] thing-app - Starting Device
+[2020-09-20T18:25:44.584] [INFO] thing-app - Loaded: ./api/device
+[2020-09-20T18:25:44.586] [INFO] thing-app - server started on port: 8080
+[2020-09-20T18:25:44.674] [INFO] thing-app - Device Startup Complete

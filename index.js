@@ -1,11 +1,12 @@
-var Q = require('q');
-var Gpio = require('onoff').Gpio;
-var cors = require('cors');
-var http = require('http');
-var device = require('./lib/device');
-var express = require('express');
-var bodyParser = require('body-parser');
-var ErrorResponse = require('./lib/error-response');
+const Q = require('q');
+const cors = require('cors');
+const http = require('http');
+const device = require('./lib/device');
+const parser = require('body-parser');
+const express = require('express');
+const ErrorResponse = require('./lib/error-response');
+const ConfigSocket = require('./sockets/config');
+const ControlSocket = require('./sockets/control');
 
 global.__base = __dirname + '/';
 global.__logger = require('./lib/logger');
@@ -19,11 +20,11 @@ try {
             try {
                 var app = express();
                 app.use(cors());
-                app.use(bodyParser.urlencoded({
+                app.use(parser.urlencoded({
                     'limit': '50mb',
                     'extended': true
                 }));
-                app.use(bodyParser.json({
+                app.use(parser.json({
                     'limit': '50mb'
                 }));
 
@@ -66,12 +67,26 @@ try {
                     const id = await device.id();
 
                     try {
-                        __logger.info("Started Adding IO");
-                        const temperature = new Gpio(11, 'out');
-
-                        setInterval(async () => __logger.info(temperature.readSync()), 1000);
-
-                        __logger.info("Finished Adding IO");
+                        const config = new ConfigSocket(__settings.sockets.config);
+                        config.on('data', async (event) => {
+                            __logger.warn('Config Socket Data: ', event);
+                        });
+                        config.on('connect', async (event) => {
+                            __logger.info('Config Socket Connecting');
+                        });
+                        config.on('disconnect', async (event) => {
+                            __logger.error('Config Socket Disconnected');
+                        });
+                        const control = new ControlSocket(__settings.sockets.control);
+                        control.on('data', async (event) => {
+                            __logger.warn('Config Socket Data: ', event);
+                        });
+                        control.on('connect', async (event) => {
+                            __logger.info('Config Socket Connecting');
+                        });
+                        control.on('disconnect', async (event) => {
+                            __logger.error('Config Socket Disconnected');
+                        });
                     } catch (error) {
                         __logger.error(error.message);
                     };
