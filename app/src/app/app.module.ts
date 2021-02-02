@@ -1,25 +1,18 @@
-/* --- MODULES --- */
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule } from '@angular/common/http';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatButtonModule } from '@angular/material/button';
+import { MatRippleModule } from '@angular/material/core';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
-import { SplashscreenModule } from './splashscreen/splashscreen.module';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-/* --- SERVICES --- */
-import { ApiService } from './services/api/api.service';
-import { ToastService } from './services/toast/toast.service';
-import { DeviceService } from './services/device/device.service';
-import { HistoryService } from './services/history/history.service';
-import { FormErrorService } from './services/form-error/form-error.service';
-import { LocalstorageService } from './services/localstorage/localstorage.service';
-
-/* --- COMPONENTS --- */
 import { AppComponent } from './app.component';
 
-/* --- ENVIRONEMENT --- */
 import { environment } from '../environments/environment';
 
 @NgModule({
@@ -28,24 +21,23 @@ import { environment } from '../environments/environment';
     ],
     imports: [
         BrowserModule,
+        MatIconModule,
+        MatListModule,
+        MatRippleModule,
+        MatButtonModule,
         AppRoutingModule,
-        HttpClientModule,
-        MatSnackBarModule,
-        SplashscreenModule,
+        MatSidenavModule,
+        MatToolbarModule,
+        MatFormFieldModule,
         BrowserAnimationsModule,
         ServiceWorkerModule.register('ngsw-worker.js', {
-            'enabled': environment.production
+            enabled: environment.production
         })
     ],
-    providers: [
-        ApiService,
-        ToastService,
-        DeviceService,
-        HistoryService,
-        FormErrorService,
-        LocalstorageService
-    ],
-    bootstrap: [AppComponent]
+    providers: [],
+    bootstrap: [
+        AppComponent
+    ]
 })
 
 export class AppModule { }

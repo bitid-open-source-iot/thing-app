@@ -240,3 +240,39 @@
 [2020-09-20T18:25:44.584] [INFO] thing-app - Loaded: ./api/device
 [2020-09-20T18:25:44.586] [INFO] thing-app - server started on port: 8080
 [2020-09-20T18:25:44.674] [INFO] thing-app - Device Startup Complete
+[2021-02-02T18:05:45.464] [INFO] thing-app - Starting Device
+[2021-02-02T18:05:45.471] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:05:45.480] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:05:45.539] [INFO] thing-app - Device Startup Complete
+[2021-02-02T18:31:31.865] [INFO] thing-app - Starting Device
+[2021-02-02T18:31:31.873] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:31:31.874] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:31:31.930] [INFO] thing-app - Device Startup Complete
+[2021-02-02T18:34:40.259] [INFO] thing-app - Starting Device
+[2021-02-02T18:34:40.265] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:34:40.267] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:34:40.314] [INFO] thing-app - Device Startup Complete
+[2021-02-02T18:34:52.109] [INFO] thing-app - Starting Device
+[2021-02-02T18:34:52.116] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:34:52.119] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:36:57.206] [INFO] thing-app - Starting Device
+[2021-02-02T18:36:57.218] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:36:57.221] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:39:42.954] [INFO] thing-app - Starting Device
+[2021-02-02T18:39:42.963] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:39:42.967] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:39:54.868] [INFO] thing-app - Starting Device
+[2021-02-02T18:39:54.877] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:39:54.882] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:40:33.145] [INFO] thing-app - Starting Device
+[2021-02-02T18:40:33.152] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:40:33.154] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:40:52.252] [INFO] thing-app - Starting Device
+[2021-02-02T18:40:52.261] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:40:52.265] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:43:04.156] [INFO] thing-app - Starting Device
+[2021-02-02T18:43:04.161] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:43:04.164] [INFO] thing-app - server started on port: 8080
+[2021-02-02T18:52:17.160] [INFO] thing-app - Starting Device
+[2021-02-02T18:52:17.167] [INFO] thing-app - Loaded: ./api/device
+[2021-02-02T18:52:17.170] [INFO] thing-app - server started on port: 8080

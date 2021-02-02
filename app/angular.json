@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "admin": {
+    "thing-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,13 +17,14 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/admin",
+            "outputPath": "dist/thing-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
+              "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest"
             ],
@@ -69,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "admin:build"
+            "browserTarget": "thing-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "admin:build:production"
+              "browserTarget": "thing-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "admin:build"
+            "browserTarget": "thing-app:build"
           }
         },
         "test": {
@@ -91,6 +92,7 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
+              "src/favicon.ico",
               "src/assets",
               "src/manifest.webmanifest"
             ],
@@ -118,16 +120,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "admin:serve"
+            "devServerTarget": "thing-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "admin:serve:production"
+              "devServerTarget": "thing-app:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "admin"
+  "defaultProject": "thing-app"
 }

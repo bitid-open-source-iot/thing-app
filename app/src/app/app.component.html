@@ -1,1 +1,35 @@
-<router-outlet></router-outlet>
+<mat-toolbar>
+    <button mat-icon-button (click)="drawer.toggle()">
+        <mat-icon>
+            menu
+        </mat-icon>
+    </button>
+
+    <mat-label class="spacer">
+        ThingApp
+    </mat-label>
+</mat-toolbar>
+
+<mat-drawer-container>
+    <mat-drawer #drawer mode="side">
+        <mat-list>
+            <mat-list-item type="button" lines="full" routerLink="/logs" routerLinkActive="active" matRipple>
+                <mat-icon>
+                    av_timer
+                </mat-icon>
+                Logs
+            </mat-list-item>
+
+            <mat-list-item type="button" lines="full" routerLink="/config" routerLinkActive="active" matRipple>
+                <mat-icon>
+                    handyman
+                </mat-icon>
+                Config
+            </mat-list-item>
+        </mat-list>
+    </mat-drawer>
+
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>

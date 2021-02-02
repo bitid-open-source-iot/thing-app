@@ -3,16 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
     {
-        'path': 'setup',
-        'loadChildren': () => import('./pages/setup/setup.module').then(m => m.SetupModule)
+        path: 'logs',
+        loadChildren: () => import('./pages/logs/logs.module').then(m => m.LogsModule)
     },
     {
-        'path': 'signin',
-        'loadChildren': () => import('./pages/signin/signin.module').then(m => m.SigninModule)
-    },
-    {
-        'path': '**',
-        'redirectTo': 'signin'
+        path: '**',
+        redirectTo: 'logs'
     }
 ];
 

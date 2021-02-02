@@ -1,0 +1,14 @@
+mat-toolbar {
+    mat-label {
+        margin-left: 16px;
+    }
+}
+mat-drawer-container {
+    height: calc(100vh - 56px);
+    mat-drawer {
+        width: 300px;
+    }
+}
+sup {
+    font-size: 10px;
+}
