@@ -1,278 +1,84 @@
-[2020-09-14T17:30:00.702] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:33:03.374] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:34:06.273] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:34:08.244] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:35:26.866] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:36:57.301] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:36:57.304] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:40:30.623] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:40:43.099] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:41:46.518] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:42:03.960] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:42:03.963] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:43:10.901] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:43:10.903] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:44:05.602] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:44:05.605] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:44:28.019] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:44:28.022] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:44:35.757] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:44:35.760] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:45:07.130] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:45:07.132] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:45:16.538] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:45:16.541] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:45:19.146] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:45:19.150] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:45:44.522] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:45:44.525] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:46:06.036] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:46:06.040] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:46:17.136] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:46:17.140] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:46:19.762] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:46:19.764] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:46:31.526] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:46:31.529] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:46:33.463] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:46:33.466] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:49:10.942] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:49:10.945] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:49:31.387] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:49:31.390] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:51:08.368] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:51:08.370] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:51:13.746] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:51:13.748] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:56:56.029] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:56:56.031] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:57:07.145] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:57:07.148] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T17:58:00.712] [INFO] thing-app - server started on port: 8080
-[2020-09-14T17:58:00.715] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-14T18:06:18.640] [INFO] thing-app - server started on port: 8080
-[2020-09-14T18:06:18.643] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:02:51.648] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:02:51.652] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:03:09.468] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:03:09.471] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:34:13.380] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:34:13.383] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:34:28.229] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:34:28.232] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:34:43.536] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:34:43.538] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:35:55.955] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:35:55.958] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:35:58.261] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:35:58.264] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:36:20.401] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:36:20.404] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:36:35.507] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:36:35.513] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:36:39.931] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:36:39.933] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:36:49.534] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:36:49.536] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:37:04.114] [ERROR] thing-app - Router.use() requires a middleware function but got a Object
-[2020-09-15T16:37:04.118] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:38:20.339] [INFO] thing-app - Loaded ./api/admin/device
-[2020-09-15T16:38:20.345] [INFO] thing-app - server started on port: 8080
-[2020-09-15T16:38:20.347] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:40:23.076] [INFO] thing-app - Loaded ./api/admin/device
-[2020-09-15T16:40:23.082] [INFO] thing-app - server started on port: 8080
-[2020-09-15T16:40:23.083] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:40:47.422] [INFO] thing-app - Loaded ./api/admin/device
-[2020-09-15T16:40:47.430] [INFO] thing-app - server started on port: 8080
-[2020-09-15T16:40:47.431] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:40:50.524] [INFO] thing-app - Loaded ./api/admin/device
-[2020-09-15T16:40:50.527] [INFO] thing-app - server started on port: 8080
-[2020-09-15T16:40:50.528] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:41:12.025] [INFO] thing-app - Loaded ./api/admin/device
-[2020-09-15T16:41:12.028] [INFO] thing-app - server started on port: 8080
-[2020-09-15T16:41:12.029] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T16:41:12.030] [ERROR] thing-app - EACCES: permission denied, open '/sys/class/gpio/export'
-[2020-09-15T17:01:26.458] [INFO] thing-app - Loaded ./api/admin/device
-[2020-09-15T17:01:26.461] [INFO] thing-app - server started on port: 8080
-[2020-09-15T17:01:26.462] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-15T17:01:26.462] [ERROR] thing-app - EACCES: permission denied, open '/sys/class/gpio/export'
-[2020-09-20T09:57:43.977] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T09:57:43.981] [INFO] thing-app - server started on port: 8080
-[2020-09-20T09:57:43.982] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T09:57:43.982] [ERROR] thing-app - EACCES: permission denied, open '/sys/class/gpio/export'
-[2020-09-20T10:00:54.921] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:00:54.924] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:00:54.925] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:01:48.188] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:01:48.195] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:01:48.197] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:05:24.155] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:05:24.159] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:05:24.163] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:06:16.260] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:06:16.264] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:06:16.266] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:06:43.220] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:06:43.223] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:06:43.224] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:06:51.345] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:06:51.349] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:06:51.351] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:06:57.938] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:06:57.944] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:06:57.946] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:07:55.735] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:07:55.739] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:07:55.803] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:08:09.443] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:08:09.446] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:08:23.140] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:56:03.151] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:56:03.156] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:56:03.199] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:56:19.885] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:56:19.889] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:56:19.960] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:56:37.535] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:56:37.540] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:56:41.302] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:57:12.137] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:57:12.141] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:57:23.307] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:57:49.173] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:57:49.176] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:57:49.225] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T10:59:22.017] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T10:59:22.021] [INFO] thing-app - server started on port: 8080
-[2020-09-20T10:59:32.102] [INFO] thing-app - 185e0fe1c5c6
-[2020-09-20T11:52:54.493] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T11:52:54.497] [INFO] thing-app - server started on port: 8080
-[2020-09-20T11:52:54.498] [INFO] thing-app - Starting Inputs
-[2020-09-20T11:54:15.109] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T11:54:15.113] [INFO] thing-app - server started on port: 8080
-[2020-09-20T11:54:15.114] [INFO] thing-app - Starting Inputs
-[2020-09-20T11:54:43.336] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T11:54:43.344] [INFO] thing-app - server started on port: 8080
-[2020-09-20T11:54:43.347] [INFO] thing-app - Starting Inputs
-[2020-09-20T11:55:43.723] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T11:55:43.727] [INFO] thing-app - server started on port: 8080
-[2020-09-20T11:55:43.728] [INFO] thing-app - Starting Inputs
-[2020-09-20T11:55:48.297] [INFO] thing-app - Init Complete
-[2020-09-20T11:57:31.442] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T11:57:31.447] [INFO] thing-app - server started on port: 8080
-[2020-09-20T11:57:31.449] [INFO] thing-app - Starting Inputs
-[2020-09-20T11:57:52.286] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T11:57:52.290] [INFO] thing-app - server started on port: 8080
-[2020-09-20T11:57:52.292] [INFO] thing-app - Starting Inputs
-[2020-09-20T11:58:29.293] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T11:58:29.299] [INFO] thing-app - server started on port: 8080
-[2020-09-20T11:58:29.302] [INFO] thing-app - Starting Inputs
-[2020-09-20T11:58:35.244] [INFO] thing-app - Init Complete
-[2020-09-20T12:01:29.475] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T12:01:29.479] [INFO] thing-app - server started on port: 8080
-[2020-09-20T12:01:29.480] [INFO] thing-app - Starting Inputs
-[2020-09-20T12:01:36.735] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T12:01:36.740] [INFO] thing-app - server started on port: 8080
-[2020-09-20T12:01:36.743] [INFO] thing-app - Starting Inputs
-[2020-09-20T12:01:44.489] [INFO] thing-app - Init Complete
-[2020-09-20T12:04:12.772] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T12:04:12.776] [INFO] thing-app - server started on port: 8080
-[2020-09-20T12:04:12.777] [INFO] thing-app - Starting Inputs
-[2020-09-20T12:22:06.961] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T12:22:06.965] [INFO] thing-app - server started on port: 8080
-[2020-09-20T12:22:06.967] [INFO] thing-app - Starting Device
-[2020-09-20T12:22:07.042] [INFO] thing-app - Device Startup Complete
-[2020-09-20T17:49:30.252] [INFO] thing-app - Starting Device
-[2020-09-20T17:49:30.257] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T17:49:30.260] [INFO] thing-app - server started on port: 8080
-[2020-09-20T17:49:30.319] [INFO] thing-app - Started Adding IO
-[2020-09-20T17:49:30.319] [ERROR] thing-app - EACCES: permission denied, open '/sys/class/gpio/export'
-[2020-09-20T17:49:30.319] [INFO] thing-app - Device Startup Complete
-[2020-09-20T17:50:56.660] [INFO] thing-app - Starting Device
-[2020-09-20T17:50:56.668] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T17:50:56.671] [INFO] thing-app - server started on port: 8080
-[2020-09-20T17:52:08.771] [INFO] thing-app - Starting Device
-[2020-09-20T17:52:08.776] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T17:52:08.779] [INFO] thing-app - server started on port: 8080
-[2020-09-20T17:57:49.905] [INFO] thing-app - Starting Device
-[2020-09-20T17:57:49.913] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T17:57:49.916] [INFO] thing-app - server started on port: 8080
-[2020-09-20T17:57:50.008] [ERROR] thing-app - WebSocket is not defined
-[2020-09-20T17:57:50.008] [INFO] thing-app - Device Startup Complete
-[2020-09-20T17:57:57.086] [INFO] thing-app - Starting Device
-[2020-09-20T17:57:57.092] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T17:57:57.094] [INFO] thing-app - server started on port: 8080
-[2020-09-20T17:57:57.174] [ERROR] thing-app - WebSocket is not defined
-[2020-09-20T17:57:57.174] [INFO] thing-app - Device Startup Complete
-[2020-09-20T17:58:03.231] [INFO] thing-app - Starting Device
-[2020-09-20T17:58:03.240] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T17:58:03.243] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:04:21.025] [INFO] thing-app - Starting Device
-[2020-09-20T18:04:21.031] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:04:21.033] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:05:58.819] [INFO] thing-app - Starting Device
-[2020-09-20T18:05:58.826] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:05:58.827] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:05:58.924] [INFO] thing-app - Device Startup Complete
-[2020-09-20T18:07:03.211] [INFO] thing-app - Starting Device
-[2020-09-20T18:07:03.218] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:07:03.220] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:07:03.315] [INFO] thing-app - Device Startup Complete
-[2020-09-20T18:11:57.101] [INFO] thing-app - Starting Device
-[2020-09-20T18:11:57.107] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:11:57.109] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:11:57.188] [INFO] thing-app - Device Startup Complete
-[2020-09-20T18:11:58.704] [INFO] thing-app - Config Socket Connecting
-[2020-09-20T18:11:58.710] [ERROR] thing-app - Config Socket Disconnected
-[2020-09-20T18:20:43.748] [INFO] thing-app - Starting Device
-[2020-09-20T18:20:43.755] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:20:43.757] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:20:43.837] [INFO] thing-app - Device Startup Complete
-[2020-09-20T18:20:51.020] [INFO] thing-app - Starting Device
-[2020-09-20T18:20:51.032] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:20:51.036] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:21:05.110] [INFO] thing-app - Device Startup Complete
-[2020-09-20T18:23:08.251] [INFO] thing-app - Starting Device
-[2020-09-20T18:23:08.259] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:23:08.261] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:23:11.342] [INFO] thing-app - Device Startup Complete
-[2020-09-20T18:25:44.578] [INFO] thing-app - Starting Device
-[2020-09-20T18:25:44.584] [INFO] thing-app - Loaded: ./api/device
-[2020-09-20T18:25:44.586] [INFO] thing-app - server started on port: 8080
-[2020-09-20T18:25:44.674] [INFO] thing-app - Device Startup Complete
-[2021-02-02T18:05:45.464] [INFO] thing-app - Starting Device
-[2021-02-02T18:05:45.471] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:05:45.480] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:05:45.539] [INFO] thing-app - Device Startup Complete
-[2021-02-02T18:31:31.865] [INFO] thing-app - Starting Device
-[2021-02-02T18:31:31.873] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:31:31.874] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:31:31.930] [INFO] thing-app - Device Startup Complete
-[2021-02-02T18:34:40.259] [INFO] thing-app - Starting Device
-[2021-02-02T18:34:40.265] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:34:40.267] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:34:40.314] [INFO] thing-app - Device Startup Complete
-[2021-02-02T18:34:52.109] [INFO] thing-app - Starting Device
-[2021-02-02T18:34:52.116] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:34:52.119] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:36:57.206] [INFO] thing-app - Starting Device
-[2021-02-02T18:36:57.218] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:36:57.221] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:39:42.954] [INFO] thing-app - Starting Device
-[2021-02-02T18:39:42.963] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:39:42.967] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:39:54.868] [INFO] thing-app - Starting Device
-[2021-02-02T18:39:54.877] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:39:54.882] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:40:33.145] [INFO] thing-app - Starting Device
-[2021-02-02T18:40:33.152] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:40:33.154] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:40:52.252] [INFO] thing-app - Starting Device
-[2021-02-02T18:40:52.261] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:40:52.265] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:43:04.156] [INFO] thing-app - Starting Device
-[2021-02-02T18:43:04.161] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:43:04.164] [INFO] thing-app - server started on port: 8080
-[2021-02-02T18:52:17.160] [INFO] thing-app - Starting Device
-[2021-02-02T18:52:17.167] [INFO] thing-app - Loaded: ./api/device
-[2021-02-02T18:52:17.170] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:04:45.006] [INFO] thing-app - Starting Device
+[2021-03-24T14:04:45.015] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:04:45.018] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:06:18.246] [INFO] thing-app - Starting Device
+[2021-03-24T14:06:18.254] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:06:18.256] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:06:21.771] [INFO] thing-app - Starting Device
+[2021-03-24T14:06:21.776] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:06:21.779] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:07:30.739] [INFO] thing-app - Starting Device
+[2021-03-24T14:07:30.745] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:07:30.748] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:08:57.804] [INFO] thing-app - Starting Device
+[2021-03-24T14:08:57.809] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:08:57.811] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:12:04.970] [INFO] thing-app - Starting Device
+[2021-03-24T14:12:04.977] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:12:04.980] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:12:43.079] [INFO] thing-app - Starting Device
+[2021-03-24T14:12:43.087] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:12:43.090] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:13:43.813] [INFO] thing-app - Starting Device
+[2021-03-24T14:13:43.819] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:13:43.822] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:14:58.400] [INFO] thing-app - Starting Device
+[2021-03-24T14:14:58.407] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:14:58.409] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:15:32.060] [INFO] thing-app - Starting Device
+[2021-03-24T14:15:32.067] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:15:32.069] [INFO] thing-app - server started on port: 8080
+[2021-03-24T14:17:18.896] [INFO] thing-app - Starting Device
+[2021-03-24T14:17:18.908] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T14:17:18.910] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:31:34.876] [INFO] thing-app - Starting Device
+[2021-03-24T15:31:34.885] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:31:34.889] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:39:55.134] [INFO] thing-app - Starting Device
+[2021-03-24T15:39:55.140] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:39:55.142] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:41:18.452] [INFO] thing-app - Starting Device
+[2021-03-24T15:41:18.460] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:41:18.462] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:41:48.743] [INFO] thing-app - Starting Device
+[2021-03-24T15:41:48.753] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:41:48.755] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:49:18.549] [INFO] thing-app - Starting Device
+[2021-03-24T15:49:18.557] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:49:18.560] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:49:28.821] [INFO] thing-app - Starting Device
+[2021-03-24T15:49:28.827] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:49:28.829] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:54:24.544] [INFO] thing-app - Starting Device
+[2021-03-24T15:54:24.549] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:54:24.551] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:55:31.985] [INFO] thing-app - Starting Device
+[2021-03-24T15:55:31.994] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:55:31.996] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:56:51.070] [INFO] thing-app - Starting Device
+[2021-03-24T15:56:51.076] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:56:51.078] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:57:43.631] [INFO] thing-app - Starting Device
+[2021-03-24T15:57:43.637] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:57:43.639] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:57:57.382] [INFO] thing-app - Starting Device
+[2021-03-24T15:57:57.396] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:57:57.399] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:58:26.440] [INFO] thing-app - Starting Device
+[2021-03-24T15:58:26.453] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:58:26.456] [INFO] thing-app - server started on port: 8080
+[2021-03-24T15:59:33.552] [INFO] thing-app - Starting Device
+[2021-03-24T15:59:33.560] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T15:59:33.564] [INFO] thing-app - server started on port: 8080
+[2021-03-24T16:00:56.470] [INFO] thing-app - Starting Device
+[2021-03-24T16:00:56.478] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T16:00:56.481] [INFO] thing-app - server started on port: 8080
+[2021-03-24T16:02:19.444] [INFO] thing-app - Starting Device
+[2021-03-24T16:02:19.450] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T16:02:19.452] [INFO] thing-app - server started on port: 8080
+[2021-03-24T16:02:37.811] [INFO] thing-app - Starting Device
+[2021-03-24T16:02:37.818] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T16:02:37.820] [INFO] thing-app - server started on port: 8080
+[2021-03-24T16:03:00.877] [INFO] thing-app - Starting Device
+[2021-03-24T16:03:00.882] [INFO] thing-app - Loaded: ./api/device
+[2021-03-24T16:03:00.884] [INFO] thing-app - server started on port: 8080

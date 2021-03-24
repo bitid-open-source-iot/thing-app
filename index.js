@@ -2,12 +2,34 @@ const Q = require('q');
 const cors = require('cors');
 const http = require('http');
 const device = require('./lib/device');
-const parser = require('body-parser');
 const express = require('express');
+const ModbusRTU = require('./lib/modbus');
 const ConfigSocket = require('./sockets/config');
 const ControlSocket = require('./sockets/control');
 const ErrorResponse = require('./lib/error-response');
 const WebSocketServer = require('websocket').server;
+
+try {
+    const modbus = new ModbusRTU({
+        txtime: 5000,
+        registers: [
+            {
+                id: 0,
+                to: 1,
+                from: 0,
+                slave: 1,
+                function: 3
+            }
+        ]
+    });
+    setInterval(() => modbus.read(), modbus.rxtime);
+    setInterval(() => {
+        debugger
+        modbus
+    }, modbus.txtime);
+} catch (error) {
+    debugger
+}
 
 global.__base = __dirname + '/';
 global.__logger = require('./lib/logger');
@@ -22,11 +44,11 @@ try {
             try {
                 var app = express();
                 app.use(cors());
-                app.use(parser.urlencoded({
+                app.use(express.urlencoded({
                     'limit': '50mb',
                     'extended': true
                 }));
-                app.use(parser.json({
+                app.use(express.json({
                     'limit': '50mb'
                 }));
 
