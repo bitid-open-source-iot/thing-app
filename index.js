@@ -24,8 +24,7 @@ try {
     });
     setInterval(() => modbus.read(), modbus.rxtime);
     setInterval(() => {
-        debugger
-        modbus
+        console.log(modbus.registers)
     }, modbus.txtime);
 } catch (error) {
     debugger
